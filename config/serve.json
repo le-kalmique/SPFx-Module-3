@@ -4,23 +4,23 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://smartpointdemo.sharepoint.com/sites/productmarketing/",
-      "customActions": {
-        "0d4280bc-1cf0-4879-8781-f53ba540ce65": {
-          "location": "ClientSideExtension.ApplicationCustomizer",
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "fieldCustomizers": {
+        "InternalFieldName": {
+          "id": "ce189c43-a1f8-4a25-b043-63b43e43f112",
           "properties": {
-            "testMessage": "Our customizer!"
+            "sampleText": "Value"
           }
         }
       }
     },
-    "helloWorldAppCustomizer": {
-      "pageUrl": "https://smartpointdemo.sharepoint.com/sites/productmarketing/",
-      "customActions": {
-        "0d4280bc-1cf0-4879-8781-f53ba540ce65": {
-          "location": "ClientSideExtension.ApplicationCustomizer",
+    "firstFieldCustomizer": {
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "fieldCustomizers": {
+        "InternalFieldName": {
+          "id": "ce189c43-a1f8-4a25-b043-63b43e43f112",
           "properties": {
-            "testMessage": "Personal customizer dialog"
+            "sampleText": "Value"
           }
         }
       }

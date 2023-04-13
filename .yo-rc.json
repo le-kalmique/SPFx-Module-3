@@ -8,15 +8,15 @@
       "@microsoft/teams-js": "2.4.1"
     },
     "version": "1.16.1",
-    "libraryName": "sp-fx-app-customizer",
-    "libraryId": "fa16c892-68fb-4c17-ad27-46c0631138d9",
+    "libraryName": "sp-fx-field-customizer",
+    "libraryId": "f714b1b1-8db7-40bb-86e8-5eb4c2a1434e",
     "environment": "spo",
     "packageManager": "npm",
-    "solutionName": "SPFxAppCustomizer",
-    "solutionShortDescription": "SPFxAppCustomizer description",
+    "solutionName": "SPFxFieldCustomizer",
+    "solutionShortDescription": "SPFxFieldCustomizer description",
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
     "componentType": "extension",
-    "extensionType": "ApplicationCustomizer"
+    "extensionType": "FieldCustomizer"
   }
 }

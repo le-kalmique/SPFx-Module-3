@@ -1,5 +1,5 @@
 {
-  "name": "sp-fx-app-customizer",
+  "name": "sp-fx-field-customizer",
   "version": "0.0.1",
   "private": true,
   "engines": {
@@ -15,8 +15,7 @@
     "tslib": "2.3.1",
     "@microsoft/sp-core-library": "1.16.1",
     "@microsoft/decorators": "1.16.1",
-    "@microsoft/sp-dialog": "1.16.1",
-    "@microsoft/sp-application-base": "1.16.1"
+    "@microsoft/sp-listview-extensibility": "1.16.1"
   },
   "devDependencies": {
     "@microsoft/rush-stack-compiler-4.5": "0.2.2",

@@ -1,4 +1,4 @@
-# sp-fx-app-customizer
+# sp-fx-field-customizer
 
 ## Summary
 
