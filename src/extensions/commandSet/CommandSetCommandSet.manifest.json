@@ -1,0 +1,25 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/command-set-extension-manifest.schema.json",
+
+  "id": "0168e286-489f-48dc-808d-5775b53d79fc",
+  "alias": "CommandSetCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "items": {
+    "COMPARE": {
+      "title": { "default": "Compare" },
+      "iconImageUrl": "https://static.thenounproject.com/png/141961-200.png",
+      "type": "command"
+    },
+    "UPDATE_RELEASE_DATE": {
+      "title": { "default": "Update Release Date" },
+      "iconImageUrl": "./icons/date.png",
+      "type": "command"
+    }
+  }
+}

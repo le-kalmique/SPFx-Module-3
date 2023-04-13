@@ -8,15 +8,15 @@
       "@microsoft/teams-js": "2.4.1"
     },
     "version": "1.16.1",
-    "libraryName": "sp-fx-app-customizer",
-    "libraryId": "fa16c892-68fb-4c17-ad27-46c0631138d9",
+    "libraryName": "sp-fx-command-set",
+    "libraryId": "dd4679f1-11ef-4385-bc7d-bd196c5364d3",
     "environment": "spo",
     "packageManager": "npm",
-    "solutionName": "SPFxAppCustomizer",
-    "solutionShortDescription": "SPFxAppCustomizer description",
+    "solutionName": "SPFxCommandSet",
+    "solutionShortDescription": "SPFxCommandSet description",
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
     "componentType": "extension",
-    "extensionType": "ApplicationCustomizer"
+    "extensionType": "ListViewCommandSet"
   }
 }

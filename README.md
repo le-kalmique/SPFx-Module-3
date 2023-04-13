@@ -1,4 +1,4 @@
-# sp-fx-app-customizer
+# sp-fx-command-set
 
 ## Summary
 

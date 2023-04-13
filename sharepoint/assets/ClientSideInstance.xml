@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
     <ClientSideComponentInstance
-        Title="HelloWorldAppCustomizer"
-        Location="ClientSideExtension.ApplicationCustomizer"
-        ComponentId="0d4280bc-1cf0-4879-8781-f53ba540ce65"
-        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
-    </ClientSideComponentInstance>
+        Title="CommandSet"
+        Location="ClientSideExtension.ListViewCommandSet.CommandBar"
+        ListTemplateId="100"
+        Properties="{&quot;sampleTextOne&quot;:&quot;One item is selected in the list.&quot;, &quot;sampleTextTwo&quot;:&quot;This command is always visible.&quot;}"
+        ComponentId="0168e286-489f-48dc-808d-5775b53d79fc" />
 </Elements>

@@ -4,24 +4,18 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://smartpointdemo.sharepoint.com/sites/productmarketing/",
+      "pageUrl": "https://smartpointdemo.sharepoint.com/sites/productmarketing/Lists/Products/All Products.aspx",
       "customActions": {
-        "0d4280bc-1cf0-4879-8781-f53ba540ce65": {
-          "location": "ClientSideExtension.ApplicationCustomizer",
-          "properties": {
-            "testMessage": "Our customizer!"
-          }
+        "0168e286-489f-48dc-808d-5775b53d79fc": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar"
         }
       }
     },
-    "helloWorldAppCustomizer": {
-      "pageUrl": "https://smartpointdemo.sharepoint.com/sites/productmarketing/",
+    "commandSet": {
+      "pageUrl": "https://smartpointdemo.sharepoint.com/sites/productmarketing/Lists/Products/All Products.aspx",
       "customActions": {
-        "0d4280bc-1cf0-4879-8781-f53ba540ce65": {
-          "location": "ClientSideExtension.ApplicationCustomizer",
-          "properties": {
-            "testMessage": "Personal customizer dialog"
-          }
+        "0168e286-489f-48dc-808d-5775b53d79fc": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar"
         }
       }
     }
