@@ -1,3 +1,19 @@
 .firstFieldCustomizer {
-  color: inherit;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  font-size: 1.8em;
+  font-weight: bold;
+  border: 1px solid green;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+
+  overflow: hidden;
+}
+
+.icon {
+  width: 10px;
+  height: 10px;
 }

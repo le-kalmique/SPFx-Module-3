@@ -4,9 +4,9 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "pageUrl": "https://smartpointdemo.sharepoint.com/sites/productmarketing/Lists/Products/All%20Products.aspx",
       "fieldCustomizers": {
-        "InternalFieldName": {
+        "Title": {
           "id": "ce189c43-a1f8-4a25-b043-63b43e43f112",
           "properties": {
             "sampleText": "Value"
@@ -15,9 +15,9 @@
       }
     },
     "firstFieldCustomizer": {
-      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
+      "pageUrl": "https://smartpointdemo.sharepoint.com/sites/productmarketing/Lists/Products/All%20Products.aspx",
       "fieldCustomizers": {
-        "InternalFieldName": {
+        "Title": {
           "id": "ce189c43-a1f8-4a25-b043-63b43e43f112",
           "properties": {
             "sampleText": "Value"
