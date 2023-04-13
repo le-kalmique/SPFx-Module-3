@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://smartpointdemo.sharepoint.com/sites/productmarketing/",
+      "customActions": {
+        "0d4280bc-1cf0-4879-8781-f53ba540ce65": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Our customizer!"
+          }
+        }
+      }
+    },
+    "helloWorldAppCustomizer": {
+      "pageUrl": "https://smartpointdemo.sharepoint.com/sites/productmarketing/",
+      "customActions": {
+        "0d4280bc-1cf0-4879-8781-f53ba540ce65": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Personal customizer dialog"
+          }
+        }
+      }
+    }
+  }
+}
