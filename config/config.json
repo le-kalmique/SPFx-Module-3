@@ -2,17 +2,17 @@
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
   "version": "2.0",
   "bundles": {
-    "hello-world-app-customizer-application-customizer": {
+    "image-field-field-customizer": {
       "components": [
         {
-          "entrypoint": "./lib/extensions/helloWorldAppCustomizer/HelloWorldAppCustomizerApplicationCustomizer.js",
-          "manifest": "./src/extensions/helloWorldAppCustomizer/HelloWorldAppCustomizerApplicationCustomizer.manifest.json"
+          "entrypoint": "./lib/extensions/imageField/ImageFieldFieldCustomizer.js",
+          "manifest": "./src/extensions/imageField/ImageFieldFieldCustomizer.manifest.json"
         }
       ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "HelloWorldAppCustomizerApplicationCustomizerStrings": "lib/extensions/helloWorldAppCustomizer/loc/{locale}.js"
+    "ImageFieldFieldCustomizerStrings": "lib/extensions/imageField/loc/{locale}.js"
   }
 }

@@ -1,8 +1,8 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "sp-fx-app-customizer-client-side-solution",
-    "id": "fa16c892-68fb-4c17-ad27-46c0631138d9",
+    "name": "sp-fx-image-field-client-side-solution",
+    "id": "3a89f7a1-c52d-44ce-b839-5153c35f27d9",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
@@ -16,10 +16,10 @@
     },
     "metadata": {
       "shortDescription": {
-        "default": "SPFxAppCustomizer description"
+        "default": "SPFxImageField description"
       },
       "longDescription": {
-        "default": "SPFxAppCustomizer description"
+        "default": "SPFxImageField description"
       },
       "screenshotPaths": [],
       "videoUrl": "",
@@ -29,18 +29,17 @@
       {
         "title": "Application Extension - Deployment of custom action",
         "description": "Deploys a custom action with ClientSideComponentId association",
-        "id": "eb6f8930-0fc0-41af-a6ba-3569676aa76e",
+        "id": "57b8809d-ce1b-40b3-90cd-01515064933d",
         "version": "1.0.0.0",
         "assets": {
           "elementManifests": [
-            "elements.xml",
-            "ClientSideInstance.xml"
+            "elements.xml"
           ]
         }
       }
     ]
   },
   "paths": {
-    "zippedPackage": "solution/sp-fx-app-customizer.sppkg"
+    "zippedPackage": "solution/sp-fx-image-field.sppkg"
   }
 }

@@ -8,15 +8,15 @@
       "@microsoft/teams-js": "2.4.1"
     },
     "version": "1.16.1",
-    "libraryName": "sp-fx-app-customizer",
-    "libraryId": "fa16c892-68fb-4c17-ad27-46c0631138d9",
+    "libraryName": "sp-fx-image-field",
+    "libraryId": "3a89f7a1-c52d-44ce-b839-5153c35f27d9",
     "environment": "spo",
     "packageManager": "npm",
-    "solutionName": "SPFxAppCustomizer",
-    "solutionShortDescription": "SPFxAppCustomizer description",
+    "solutionName": "SPFxImageField",
+    "solutionShortDescription": "SPFxImageField description",
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
     "componentType": "extension",
-    "extensionType": "ApplicationCustomizer"
+    "extensionType": "FieldCustomizer"
   }
 }

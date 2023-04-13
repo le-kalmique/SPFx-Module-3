@@ -1,10 +1,10 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-extension-manifest.schema.json",
 
-  "id": "0d4280bc-1cf0-4879-8781-f53ba540ce65",
-  "alias": "HelloWorldAppCustomizerApplicationCustom",
+  "id": "47e53042-2ccd-4397-bb57-40743016f0d0",
+  "alias": "ImageFieldFieldCustomizer",
   "componentType": "Extension",
-  "extensionType": "ApplicationCustomizer",
+  "extensionType": "FieldCustomizer",
 
   // The "*" signifies that the version should be taken from the package.json
   "version": "*",

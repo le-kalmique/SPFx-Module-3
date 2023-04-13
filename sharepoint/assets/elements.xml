@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
-    <CustomAction
-        Title="HelloWorldAppCustomizer"
-        Location="ClientSideExtension.ApplicationCustomizer"
-        ClientSideComponentId="0d4280bc-1cf0-4879-8781-f53ba540ce65"
-        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
-    </CustomAction>
+    <Field ID="{b572eca9-0414-456c-8197-cb1bd1343444}"
+            Name="SPFxPercentage"
+            DisplayName="Percentage"
+            Type="Number"
+            Min="0"
+            Required="FALSE"
+            Group="SPFx Columns"
+            ClientSideComponentId="47e53042-2ccd-4397-bb57-40743016f0d0">
+    </Field>
 </Elements>
